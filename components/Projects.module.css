@@ -1,0 +1,121 @@
+.projects {
+  padding: 120px 60px;
+  border-top: 1px solid var(--border);
+}
+
+.header { margin-bottom: 80px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+}
+
+.card {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  padding: 48px 40px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(201,168,76,0.03), transparent);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.card:hover::before { opacity: 1; }
+.card:hover { border-color: rgba(201,168,76,0.3); }
+
+.num {
+  font-family: var(--font-display);
+  font-size: 72px;
+  font-weight: 800;
+  color: rgba(201,168,76,0.06);
+  position: absolute;
+  top: 20px; right: 32px;
+  line-height: 1;
+  transition: color 0.4s ease;
+}
+
+.card:hover .num { color: rgba(201,168,76,0.12); }
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.status::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.live { color: var(--gold); }
+.soon { color: var(--gray); }
+
+.title {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+  color: var(--white);
+}
+
+.desc {
+  font-size: 13px;
+  color: var(--gray2);
+  line-height: 1.8;
+  margin-bottom: 28px;
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  font-size: 11px;
+  color: var(--gray2);
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s;
+}
+
+.link:hover { color: var(--gold); }
+
+.disabled {
+  opacity: 0.3;
+  pointer-events: none;
+  cursor: default;
+}
+
+@media (max-width: 768px) {
+  .projects { padding: 80px 24px; }
+  .grid { grid-template-columns: 1fr; }
+}
