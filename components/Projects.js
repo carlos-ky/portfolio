@@ -8,7 +8,7 @@ const projects = [
     title: 'Maison Sergio — E-Commerce',
     desc: 'Plateforme e-commerce complète pour une boutique de mode féminine. Catalogue produits, panier, gestion des commandes et dashboard admin.',
     stack: ['React', 'Node.js', 'PostgreSQL', 'Express'],
-    github: 'https://github.com/kingloscar',
+    github: 'https://github.com/carlos-ky',
     demo: null
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     title: 'TaskFlow — Gestion de tâches',
     desc: 'Application de gestion de tâches en temps réel avec collaboration multi-utilisateurs, notifications et tableau Kanban interactif.',
     stack: ['React', 'Node.js', 'WebSockets', 'PostgreSQL'],
-    github: 'https://github.com/kingloscar',
+    github: 'https://github.com/carlos-ky',
     demo: null
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     title: 'Analytics Dashboard',
     desc: 'Dashboard de visualisation de données avec graphiques dynamiques, filtres avancés et export de rapports. API REST complète.',
     stack: ['React', 'Chart.js', 'Node.js', 'MySQL'],
-    github: 'https://github.com/kingloscar',
+    github: 'https://github.com/carlos-ky',
     demo: null
   },
   {
@@ -38,8 +38,8 @@ const projects = [
     title: 'Portfolio — Ce site',
     desc: 'Portfolio personnel conçu et développé from scratch. Design premium, animations CSS, responsive et optimisé pour les performances.',
     stack: ['Next.js', 'CSS Modules', 'Vercel'],
-    github: 'https://github.com/kingloscar',
-    demo: '#'
+    github: 'https://github.com/carlos-ky',
+    demo: 'https://portfolio-flame-chi-66.vercel.app/'
   }
 ]
 
