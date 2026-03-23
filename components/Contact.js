@@ -4,14 +4,14 @@ const links = [
   {
     icon: '✉',
     label: 'Email',
-    value: 'carlosky194@gmail.com',
-    href: 'mailto:carlosky194@gmail.com'
+    value: 'eliecarlosk@gmail.com',
+    href: 'mailto:eliecarlosk@gmail.com'
   },
   {
     icon: '⌥',
     label: 'GitHub',
     value: 'kingloscar',
-    href: 'https://github.com/kingloscar'
+    href: 'https://github.com/carlos-ky'
   },
   {
     icon: 'in',
@@ -40,7 +40,7 @@ export default function Contact() {
           Disponible pour des opportunités fullstack à Ouagadougou et en remote.
           Réponse sous 24h.
         </p>
-        <a href="mailto:carlosky194@gmail.com" className="btn-primary">
+        <a href="mailto:eliecarlosk@gmail.com" className="btn-primary">
           <span>Envoyer un email</span>
         </a>
       </div>
