@@ -5,7 +5,7 @@ const projects = [
   {
     num: '01',
     status: 'Live',
-    live: false,
+    live: true,
     title: 'Dashboard Analytics — Gestion de contenu',
     desc: 'Dashboard fullstack de gestion de contenu connecté à Supabase. Authentification, gestion d\'articles, suivi de projets, analytics de visites, système de messagerie interne. Architecture multi-utilisateurs avec rôles différenciés.',
     stack: ['React', 'TypeScript', 'Tailwind CSS', 'Supabase'],
