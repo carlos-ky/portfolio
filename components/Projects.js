@@ -33,8 +33,8 @@ const projects = [
   },
   {
     num: '04',
-    status: 'Live',
-    live: true,
+    status: 'Cas d\'étude',
+    live: false,
     title: 'AB ENERGIE — Cas d\'étude conceptuel',
     desc: 'Refonte conceptuelle d\'un site web pour une entreprise du secteur énergie au Burkina Faso. Projet réalisé en démarche de prospection — exercice complet de conception, design et développement front-end pour démontrer ma capacité à traiter un brief sectoriel de bout en bout. Le site n\'a pas été commandité par AB ENERGIE.',
     stack: ['Next.js', 'CSS Modules', 'Vercel'],

@@ -10,7 +10,7 @@ const links = [
   {
     icon: '⌥',
     label: 'GitHub',
-    value: 'kingloscar',
+    value: 'Carlos KY',
     href: 'https://github.com/carlos-ky'
   },
   {
