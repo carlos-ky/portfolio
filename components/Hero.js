@@ -12,10 +12,10 @@ export default function Hero() {
           Carlos<br />
           <span className={styles.outline}>KY</span>
         </h1>
-        <div className={styles.title}>React & Node.js Developer</div>
+        <div className={styles.title}>Frontend Developer · React, Vue.js & React Native</div>
         <p className={styles.desc}>
-          Je construis des applications web et mobile robustes, des APIs performantes,
-          et des interfaces qui convertissent. Fullstack, pragmatique, orienté résultats.
+          Je construis des interfaces web et mobile soignées, performantes et orientées conversion. 
+          React, Vue.js, React Native, intégration d'APIs et de services backend modernes.
         </p>
         <div className={styles.cta}>
           <a href="#projects" className="btn-primary">
@@ -27,15 +27,15 @@ export default function Hero() {
 
       <div className={styles.counter}>
         <div className={styles.counterItem}>
-          <div className={styles.counterNum}>3+</div>
+          <div className={styles.counterNum}>1+</div>
           <div className={styles.counterLabel}>Années d&apos;exp.</div>
         </div>
         <div className={styles.counterItem}>
-          <div className={styles.counterNum}>10+</div>
-          <div className={styles.counterLabel}>Projets livrés</div>
+          <div className={styles.counterNum}>4+</div>
+          <div className={styles.counterLabel}>Projets phares</div>
         </div>
         <div className={styles.counterItem}>
-          <div className={styles.counterNum}>2</div>
+          <div className={styles.counterNum}>3</div>
           <div className={styles.counterLabel}>Spécialités</div>
         </div>
       </div>

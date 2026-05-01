@@ -1,13 +1,14 @@
 import styles from './Projects.module.css'
 
 const projects = [
+  
   {
     num: '01',
     status: 'En cours',
     live: false,
-    title: 'Maison Sergio — E-Commerce',
-    desc: 'Plateforme e-commerce complète pour une boutique de mode féminine. Catalogue produits, panier, gestion des commandes et dashboard admin.',
-    stack: ['React', 'Node.js', 'PostgreSQL', 'Express'],
+    title: 'Dashboard Analytics — Gestion de contenu',
+    desc: 'Dashboard fullstack de gestion de contenu connecté à Supabase. Authentification, gestion d\'articles, suivi de projets, analytics de visites, système de messagerie interne. Architecture multi-utilisateurs avec rôles différenciés.',
+    stack: ['React', 'TypeScript', 'Tailwind CSS', 'Supabase'],
     github: 'https://github.com/carlos-ky',
     demo: null
   },
@@ -15,9 +16,9 @@ const projects = [
     num: '02',
     status: 'En cours',
     live: false,
-    title: 'TaskFlow — Gestion de tâches',
-    desc: 'Application de gestion de tâches en temps réel avec collaboration multi-utilisateurs, notifications et tableau Kanban interactif.',
-    stack: ['React', 'Node.js', 'WebSockets', 'PostgreSQL'],
+    title: 'SpendTracker — App mobile de gestion de dépenses',
+    desc: 'pplication mobile React Native pour suivre ses dépenses personnelles. Catégorisation, statistiques mensuelles, synchronisation cloud via Supabase, interface fluide. Déployée en Expo Web pour démonstration.',
+    stack: ['React Native', 'Expo', 'TypeSript', 'Supabase'],
     github: 'https://github.com/carlos-ky',
     demo: null
   },
@@ -25,21 +26,21 @@ const projects = [
     num: '03',
     status: 'En cours',
     live: false,
-    title: 'Analytics Dashboard',
-    desc: 'Dashboard de visualisation de données avec graphiques dynamiques, filtres avancés et export de rapports. API REST complète.',
-    stack: ['React', 'Chart.js', 'Node.js', 'MySQL'],
+    title: ' MovieFinder — Recherche et exploration',
+    desc: 'Application web de recherche et d\'exploration de films et séries, connectée à l\'API TMDB. Recherche en temps réel, fiches détaillées, listes de favoris, interface responsive inspirée des plateformes de streaming.',
+    stack: ['Vue JS 3', 'TypeScript', 'Tailwind CSS', 'REST API'],
     github: 'https://github.com/carlos-ky',
     demo: null
   },
   {
     num: '04',
-    status: 'Live',
-    live: true,
-    title: 'Portfolio — Ce site',
-    desc: 'Portfolio personnel conçu et développé from scratch. Design premium, animations CSS, responsive et optimisé pour les performances.',
+    status: 'En cours',
+    live: false,
+    title: 'AB ENERGIE — Cas d\'étude conceptuel',
+    desc: 'Refonte conceptuelle d\'un site web pour une entreprise du secteur énergie au Burkina Faso. Projet réalisé en démarche de prospection — exercice complet de conception, design et développement front-end pour démontrer ma capacité à traiter un brief sectoriel de bout en bout. Le site n\'a pas été commandité par AB ENERGIE.',
     stack: ['Next.js', 'CSS Modules', 'Vercel'],
     github: 'https://github.com/carlos-ky',
-    demo: 'https://portfolio-flame-chi-66.vercel.app/'
+    demo: null
   }
 ]
 

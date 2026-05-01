@@ -14,12 +14,6 @@ const links = [
     href: 'https://github.com/carlos-ky'
   },
   {
-    icon: 'in',
-    label: 'LinkedIn',
-    value: 'Carlos KY',
-    href: 'https://linkedin.com/in/carlos-ky'
-  },
-  {
     icon: '☎',
     label: 'Téléphone',
     value: '+226 54 71 48 40',
@@ -37,8 +31,8 @@ export default function Contact() {
           <em>ensemble.</em>
         </h2>
         <p className={styles.sub}>
-          Disponible pour des opportunités fullstack à Ouagadougou et en remote.
-          Réponse sous 24h.
+          Ouvert aux opportunités Frontend (Web & Mobile) 
+          à Ouagadougou — présentiel, hybride ou remote. Réponse sous 24h.
         </p>
         <a href="mailto:eliecarlosk@gmail.com" className="btn-primary">
           <span>Envoyer un email</span>

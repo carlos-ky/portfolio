@@ -5,19 +5,19 @@ const skills = [
     icon: '⚛️',
     name: 'Frontend',
     desc: 'Interfaces réactives, performantes et accessibles. Du composant à l\'application complète.',
-    tags: ['React.js', 'Next.js', 'React Native', 'HTML/CSS', 'JavaScript']
-  },
-  {
-    icon: '⚙️',
-    name: 'Backend',
-    desc: 'APIs robustes, logique métier solide, authentification et sécurité.',
-    tags: ['Node.js', 'Express.js', 'REST API', 'JWT', 'Middleware']
+    tags: ['React.js', 'Next.js','Vue js 3', 'React Native', 'TypeScript', 'Tailwind CSS']
   },
   {
     icon: '🗄️',
-    name: 'Base de données',
-    desc: 'Modélisation, requêtes optimisées, migrations et intégrité des données.',
-    tags: ['PostgreSQL', 'MySQL', 'MongoDB', 'SQL']
+    name: 'Mobile',
+    desc: 'Applications mobiles cross-platform avec React Native et Expo. Pensées pour la performance et l\'expérience utilisateur.',
+    tags: ['REST API', 'Supabase', 'Firebase', 'Axios', 'Auth (côté client)']
+  },
+  {
+    icon: '⚙️',
+    name: 'Intégration & Outils',
+    desc: 'Connexion à des services backend modernes, consommation d\'APIs, versioning et déploiement continu',
+    tags: ['REST APIs','Supabase','Git', 'Vercel', 'Tailwind CSS']
   }
 ]
 
