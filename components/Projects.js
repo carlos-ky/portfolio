@@ -9,8 +9,8 @@ const projects = [
     title: 'Dashboard Analytics — Gestion de contenu',
     desc: 'Dashboard fullstack de gestion de contenu connecté à Supabase. Authentification, gestion d\'articles, suivi de projets, analytics de visites, système de messagerie interne. Architecture multi-utilisateurs avec rôles différenciés.',
     stack: ['React', 'TypeScript', 'Tailwind CSS', 'Supabase'],
-    github: 'https://github.com/carlos-ky',
-    demo: null
+    github: 'https://github.com/carlos-ky/analytics-dashboard.git',
+    demo: 'https://analytics-dashboard-one-tau.vercel.app/'
   },
   {
     num: '02',
