@@ -5,13 +5,13 @@ const skills = [
     icon: '⚛️',
     name: 'Frontend',
     desc: 'Interfaces réactives, performantes et accessibles. Du composant à l\'application complète.',
-    tags: ['React.js', 'Next.js','Vue js 3', 'React Native', 'TypeScript', 'Tailwind CSS']
+    tags: ['React.js', 'Next.js','Vue.js 3', 'React Native', 'TypeScript', 'Tailwind CSS']
   },
   {
     icon: '🗄️',
     name: 'Mobile',
     desc: 'Applications mobiles cross-platform avec React Native et Expo. Pensées pour la performance et l\'expérience utilisateur.',
-    tags: ['REST API', 'Supabase', 'Firebase', 'Axios', 'Auth (côté client)']
+    tags: ['React Native', 'Expo', 'Javascript', 'AsyncStorage']
   },
   {
     icon: '⚙️',

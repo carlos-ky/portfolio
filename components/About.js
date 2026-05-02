@@ -2,7 +2,7 @@ import styles from './About.module.css'
 
 export default function About() {
   const stack = [
-    'Vue JS 3','React.js','Next JS', 'React Native', 'Tailwind CSS','REST APIs','Supabase', 'Git / GitHub',
+    'Vue.js 3','React.js','Next.js', 'React Native', 'Tailwind CSS','REST APIs','Supabase', 'Git / GitHub',
     'Vercel', 'Expo'
   ]
 
@@ -14,9 +14,9 @@ export default function About() {
         <p>
           Je suis <strong>Elie Carlos KY</strong>, développeur Frontend basé à Ouagadougou, 
           spécialisé en React et Vue.js.
-          Mon parcours combine une formation technique solide en ingénierie informatique et une petite
-          expérience terrain en développementsur des projets Vue.js 3, et plusieurs missions freelance 
-          en React et mobile depuis.
+          Mon parcours combine une formation en ingénierie informatique (Bac+2), une expérience 
+          terrain en développement sur des projets Vue.js 3 chez ECODEV, et plusieurs 
+          missions freelance en React et mobile depuis."
         </p>
         <p>
           J'ai accompagné des projets web de bout en bout — conception d'interfaces, intégration d'APIs 
