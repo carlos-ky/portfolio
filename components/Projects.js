@@ -13,13 +13,13 @@ const projects = [
   },
   {
     num: '02',
-    status: 'En cours',
-    live: false,
+    status: 'Live',
+    live: true,
     title: 'SpendTracker — App mobile de gestion de dépenses',
     desc: 'Application mobile React Native pour suivre ses dépenses personnelles. Catégorisation, statistiques mensuelles, synchronisation cloud via Supabase, interface fluide. Déployée en Expo Web pour démonstration.',
     stack: ['React Native', 'Expo', 'TypeScript', 'Supabase'],
-    github: 'https://github.com/carlos-ky',
-    demo: null
+    github: 'https://github.com/carlos-ky/spendtracker',
+    demo: 'https://spendtracker-alpha.vercel.app/'
   },
   {
     num: '03',
