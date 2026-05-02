@@ -23,13 +23,13 @@ const projects = [
   },
   {
     num: '03',
-    status: 'En cours',
-    live: false,
+    status: 'Live',
+    live: true,
     title: 'MovieFinder — Recherche et exploration',
     desc: 'Application web de recherche et d\'exploration de films et séries, connectée à l\'API TMDB. Recherche en temps réel, fiches détaillées, listes de favoris, interface responsive inspirée des plateformes de streaming.',
     stack: ['Vue.js 3', 'TypeScript', 'Tailwind CSS', 'REST API'],
-    github: 'https://github.com/carlos-ky',
-    demo: null
+    github: 'https://github.com/carlos-ky/moviefinder',
+    demo: 'https://moviefinder-orpin.vercel.app/'
   },
   {
     num: '04',
